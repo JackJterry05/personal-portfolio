@@ -29,7 +29,7 @@ h3 {
 .scrolling-bg {
     height: 100vh;
     width: 100vw;
-    background: url("../imgs/CheckerL.png") repeat;
+    background: url(../imgs/CheckerL.png) repeat;
     animation: scroll 5s linear infinite;
     justify-content: center;
     align-items: center;
