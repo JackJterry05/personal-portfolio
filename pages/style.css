@@ -5,3 +5,23 @@
 * {
     margin: 0;
 }
+
+.container {
+    overflow: hidden;
+}
+
+.infinite-scroll {
+    background: url(/imgs/CheckerL.png) repeat;
+    height: 1600px;
+    width: 1600px;
+    animation: scroll 5s linear infinite;
+}
+
+@keyframes scroll{
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-80px, -80px, 0);
+    }
+  }
